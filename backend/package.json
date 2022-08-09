@@ -2,10 +2,10 @@
   "name": "icanserver",
   "version": "1.0.0",
   "description": "module",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +17,7 @@
     "express-fileupload": "^1.4.0",
     "mongoose": "^6.5.1",
     "mysql2": "^2.3.3",
-    "sequelize": "^6.21.3"
+    "sequelize": "^6.21.3",
+    "serve": "^14.0.1"
   }
 }
