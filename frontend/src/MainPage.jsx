@@ -8,8 +8,6 @@ import Portofolio from './components/pages/portofolio/Portofolio';
 import Contact from './components/pages/contact/Contact';
 import Footer from './components/footer/Footer';
 import "remixicon/fonts/remixicon.css";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import 'aos/dist/aos.css'
 
 const MainPage = () => {
