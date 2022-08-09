@@ -2,7 +2,6 @@
 import React, { useEffect } from "react"
 import { Container, Row, Col } from "reactstrap"
 import "./Contact.css"
-import Form from './Form'
 import { FaTiktok } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
