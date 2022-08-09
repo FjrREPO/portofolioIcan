@@ -1,0 +1,381 @@
+.project {
+    background-color: #191919;
+}
+
+img.admin__img {
+    border-radius: 10px;
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+    transition: .4s;
+    opacity: .7;
+    position: relative;
+}
+
+img.admin__img::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 1;
+    opacity: 1;
+}
+
+.project__imgg {
+    width: 190px;
+    height: 190px;
+}
+
+.project__meta.absolute {
+    top: 0%;
+    left: 0%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    width: 100%;
+}
+
+h5.project__text {
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+h4.project__text {
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+a.project__btn {
+    padding: 12px 35px;
+    border-radius: 5px;
+    transition: .4s ease;
+}
+
+button.btn {
+    border: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    background-color: #191919;
+    color: #fff !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .4s all ease;
+}
+
+button.view__more:hover {
+    background-color: #fff;
+    color: #191919 !important;
+}
+
+.tab__btns {
+    position: relative;
+    align-items: center;
+    display: flex;
+    gap: 2.5em;
+    justify-content: center;
+    color: #fff;
+}
+
+.secondary__btn {
+    background: transparent;
+    color: #fff;
+    outline: none;
+    padding: 7px 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -ms-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+}
+
+.secondary__btn:hover {
+    color: #191919;
+    background-color: #fff;
+}
+
+.admin__img__box a {
+    z-index: 2;
+}
+
+.admin__img__box a img {
+    z-index: 1;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1024px) {
+    h5.project__text {
+        font-weight: 400;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    h4.project__text {
+        font-size: 18px;
+    }
+
+    .headingtext .headingspan {
+        font-size: 40px;
+        font-weight: 300;
+    }
+
+    .headingtext .heading {
+        font-size: 40px;
+        padding-bottom: 50px;
+        -webkit-text-stroke: 2px white;
+        color: #000;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+.admin__form {
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+
+.admin__mainform {
+    background: #000;
+}
+
+.admin__mainformedit {
+    background: #000;
+    height: 87.8vh;
+}
+
+.admin__childform {
+    background: url(../assets/images/bg-4.jpg) center;
+    position: relative;
+    display: block;
+    border-radius: 10px;
+    margin-bottom: -50px;
+    height: 450px;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.admin__head {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.admin__inputimage {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 16em;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: transparent;
+    margin-left: 50px;
+    color: #fff;
+}
+
+.admin__inputlink {
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    padding: 5px;
+    padding-left: 10px;
+    background: rgba(57, 20, 203, 0.5);
+    color: #fff;
+    border: 2px solid #5d00ff;
+}
+
+input {
+    color: #fff;
+    font-size: 15px;
+}
+
+.admin__crud {
+    font-size: 15px;
+    margin-right: 50px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.admin__maincrud {
+    font-size: 15px;
+    padding-top: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.admin__buttonsave {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.admin__mainpreview {
+    height: 120px;
+    width: 120px;
+    position: relative;
+    justify-content: center;
+}
+
+.admin__back {
+    background: transparent;
+    position: relative;
+    display: flex;
+    height: 80px;
+}
+
+.admin__backadmin {
+    background: transparent;
+    position: relative;
+    display: flex;
+}
+
+.admin__add {
+    background: transparent;
+    position: relative;
+    display: flex;
+}
+
+.admin__backbutton {
+    background: transparent;
+    border: none;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.admin__addbutton {
+    background: transparent;
+    border: none;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.admin__backname {
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.admin__selectformat {
+    position: relative;
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 100px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.admin__selectoption {
+    cursor: pointer;
+}
+
+
+
+
+.admin__loginform {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    margin-top: 150px;
+}
+
+.admin__childloginform {
+    background: url(../assets/images/bg-4.jpg) center;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: -50px;
+    height: 450px;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.admin__logininputlink {
+    height: 15px;
+    width: 150px;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    background: rgba(57, 20, 203, 0.5);
+    color: #fff;
+    border: 2px solid #5d00ff;
+}
+
+.admin__loginh1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.admin__loginhead {
+    display: block;
+    position: relative;
+    padding: 10px;
+    color: #fff;
+    font-size: 17px;
+}
+
+.admin__loginbuttonsave {
+    position: relative;
+    display: flex;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.admin__maincol {
+    background: transparent;
+}
+
+.admin__main {
+    background: no-repeat fixed center;
+    animation: change-background 10s ease infinite;
+    min-height: 100vh;
+}
+
+@keyframes change-background {
+    0% {
+        background: #421c52;
+    }
+
+    50% {
+        background: #071630;
+    }
+
+    100% {
+        background: #421c52;
+    }
+}
