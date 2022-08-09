@@ -76,7 +76,7 @@ const Admin = () => {
         getUsers();
 
         if (filter === "Video") {
-        const filteredData = products.filter(
+        const filteredData = filter.filter(
             (product) => product.category === filter
         );
 
@@ -84,13 +84,13 @@ const Admin = () => {
         }
 
         if (filter === "Photo") {
-        const filteredData = products.filter(
+        const filteredData = filter.filter(
             (product) => product.category === filter
         );
 
         setFilter(filteredData);
         }
-    }, []);
+    }, [filter]);
 
     const active = 'tab__btn__active'
 

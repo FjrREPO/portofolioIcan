@@ -1,34 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import "./Header.css";
-import { Link } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
-
-const NAV__LINK = [
-    {
-        path: "home",
-        display: "Home",
-    },
-    {
-        path: "about",
-        display: "About",
-    },
-    {
-        path: "services",
-        display: "Services",
-    },
-    {
-        path: "portofolio",
-        display: "Portofolio",
-    },
-    {
-        path: "contact",
-        display: "Contact",
-    },
-    {
-        path: "/admin",
-        display: "Login",
-    },
-];
 
 const Header = () => {
     const headerRef = useRef(null);
